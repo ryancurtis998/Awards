@@ -30,4 +30,4 @@ class ProjectTestClass(TestCase):
         self.new_project.save_image()
         project = Image.objects.get(id = 1)
         project.set_description("qwertyuiop")
-self.assertTrue(project.description == "qwertyuiop")
+        self.assertTrue(project.description == "qwertyuiop")
