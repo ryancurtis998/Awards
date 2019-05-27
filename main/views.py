@@ -34,8 +34,11 @@ def home_index(request):
 @login_required
 def profile_path(request):
 
-    images = Project.objects.all()
-    my_profile = Profile.objects.all()
+    # images = Project.objects.all()
+    # my_profile = Profile.objects.all()
+    
+    images = request.user.profile.projects.all()
+    
 
     return render(request,'profile.html', locals())
 
