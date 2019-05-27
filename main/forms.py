@@ -9,4 +9,4 @@ class UploadForm(forms.ModelForm):
 class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
-exclude = ('website',)
+        exclude = ('website',)

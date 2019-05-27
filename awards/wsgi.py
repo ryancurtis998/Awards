@@ -1,5 +1,5 @@
 """
-WSGI config for zawadi project.
+WSGI config for awards project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "zawadi.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "awards.settings")
 
 application = get_wsgi_application()
