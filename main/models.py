@@ -31,7 +31,7 @@ class Project(models.Model):
         return project
 
 class Profile(models.Model):
-    profile_photo = models.ImageField(upload_to = 'profile/')
+    # profile_photo = models.ImageField(upload_to = 'profile/')
     user_id = models.OneToOneField(User, on_delete=models.CASCADE)
     contacts=models.CharField(max_length=50, blank=True)
     website=models.CharField(max_length=50, blank=True)
