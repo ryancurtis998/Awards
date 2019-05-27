@@ -14,6 +14,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    opacity: 1;
 }
 
 .sidenav a {
@@ -23,6 +24,7 @@ body {
     color: #fff;
     display: block;
     transition: 0.3s;
+    font-family: 'Pacifico', cursive;
 }
 
 .sidenav a:hover {
@@ -87,4 +89,3 @@ img:hover{
 .style h6 {
   margin-right: 30px;
 }
-

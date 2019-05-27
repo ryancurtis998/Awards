@@ -10,7 +10,7 @@ This is Project review site  built in python that allows users to view, review a
 
 Use this link to see the web-page
 
-##API Links
+## API Links
 use the following API links to get access to the apps JSON files using the endpoints stated after each link;
 
 `http` endpoint Profile
