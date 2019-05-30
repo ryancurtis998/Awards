@@ -38,7 +38,7 @@ def profile_path(request):
     user = request.user
     my_profile = User.objects.get(username=user)
     
-    images = request.user.profile.projects.all()
+    # images = request.user.profile.projects.all()
     
 
     return render(request,'profile.html', locals())
