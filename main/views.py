@@ -36,7 +36,7 @@ def profile_path(request):
 
     # images = Project.objects.all()
     user = request.user
-    my_profile = User.objects.get(username=user)
+    # my_profile = User.objects.get(username=user)
     
     # images = request.user.profile.projects.all()
     
