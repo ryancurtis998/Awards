@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['zawadi254.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
