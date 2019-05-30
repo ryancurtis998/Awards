@@ -32,10 +32,10 @@ def home_index(request):
 
 #profile page
 @login_required
-def profile_path(request):
+def profile_path(request, username):
 
     # images = Project.objects.all()
-    # my_profile = Profile.objects.all()
+    my_profile = User.objects.get(username=username)
     
     images = request.user.profile.projects.all()
     
